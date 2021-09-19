@@ -1,0 +1,215 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- Bootstrap CSS -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+        
+        <!-- Custom CSS -->
+        <link rel="stylesheet" href="style.css">
+
+        <!-- Font Awesome Fonts -->
+        <script src="https://kit.fontawesome.com/1b0428a997.js" crossorigin="anonymous"></script>
+        <title>Homepage</title>
+    </head>
+
+    <body>
+        <a name="top"></a>
+        <!-- 
+            HTML and Bootstrap for the Navigation Bar at the top of the page,
+            with easy to navigate links and a search bar for specific queries,
+            properly sectioned and grouped.
+        -->
+        <nav id="navbar-section" class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img class="nav-logo-img" src="assets/Embassy-Logo.png" alt="">
+                </a>
+                <button 
+                    class="navbar-toggler" 
+                    type="button" 
+                    data-bs-toggle="collapse" 
+                    data-bs-target="#navbarSupportedContent" 
+                    aria-controls="navbarSupportedContent" 
+                    aria-expanded="false" 
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Consular Services
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" target= "_blank" href="http://consular.namibia-botschaft.de/touristholiday-visa/">Booking of Appointments</a></li>
+                            <li><a class="dropdown-item" target= "_blank" href="http://consular.namibia-botschaft.de/touristholiday-visa/">Visa to Namibia</a></li>
+                            <li><a class="dropdown-item" target= "_blank" href="http://consular.namibia-botschaft.de/touristholiday-visa/">Namibian Citizenship</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" target= "_blank" href="http://consular.namibia-botschaft.de/national_documents/">Passport and Identity Documents</a></li>
+                            <li><a class="dropdown-item" target= "_blank" href="#">Certification and Authentication</a></li>
+                            <li><a class="dropdown-item" target= "_blank" href="http://consular.namibia-botschaft.de/contact-us/">Emergency Service</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Topics
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="https://www.gov.na/about-namibia" target="_blank">Welcome to Namibia</a></li>
+                            <li><a class="dropdown-item" href="https://www.namibia-tourism.com/" target="_blank">Culture</a></li>
+                            <li><a class="dropdown-item" href="https://www.gov.na/" target="_blanks">Politics</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="https://www.invest-namibia.de/" target="_blank">Economic Relations</a></li>
+                            <li><a class="dropdown-item" href="https://www.invest-namibia.de/" target="_blank">Development Cooperation</a></li>
+                            <li><a class="dropdown-item" href="http://www.namibia-botschaft.de/links.html" target="_blank">National Institutions</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="http://www.namibia-botschaft.de/news-19.html" target="_blank">Current News</a>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-primary" type="submit">Search</button>
+                </form>
+                </div>
+            </div>
+        </nav>
+
+        <!--
+            Brief area to welcome users to the site before displaying contents.
+        -->
+        <section id = welcome-section>
+            <div class="welcome-div">
+                <br>
+                <h1 class="welcome-heading">Welcome to the Namibian Embassy in Germany</h1>
+                <br>
+                <img id="welcome-img" src="assets/windhoek-welcome.jpeg" alt="windhoek city at night">
+            </div>
+        </section>
+
+        <!--
+            Main contents of the homepage, with organized and most important links
+            for users who visit the site.
+        -->
+        <section id = homepage-links-section>
+            <br>
+            <h1 class="welcome-heading">Embassy Services</h1>
+            <div class="main-div container">
+                <div class="row justify-content-evenly">
+                    <div class="col">
+                        <div class="card" style="width: 18rem;">
+                            <img src="assets/main-covid.jpeg" class="card-img-top" alt="graphic of COVID-19">
+                            <div class="card-body">
+                                <h5 class="card-title">Important Information about COVID-19</h5>
+                                <p class="card-text">Get the latest updates on the current situation of Covid in the country as well as regulations.</p>
+                                <a href="https://namibiatourism.com.na/page/covid-19-updates" target="_blank" class="btn btn-outline-danger">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card" style="width: 18rem;">
+                            <img src="assets/main-embassy.jpeg" class="card-img-top" alt="Embassy building in Berlin">
+                            <div class="card-body">
+                                <h5 class="card-title">The Embassy</h5>
+                                <p class="card-text">Welcome to the Namibian Embassy in the Federal Republic of Germany.</p>
+                                <a href="http://www.namibia-botschaft.de/botschaft.html" target="_blank" class="btn btn-outline-primary">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card" style="width: 18rem;">
+                            <img src="assets/main-consular.png" class="card-img-top" alt="a Namibian Passport">
+                            <div class="card-body">
+                                <h5 class="card-title">Consular Services</h5>
+                                <p class="card-text">Information about visa's, personal documents, certificates, and other important consular services.</p>
+                                <a href="http://consular.namibia-botschaft.de/" target="_blank" class="btn btn-outline-primary">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row justify-content-evenly">
+                    <div class="col">
+                        <div class="card" style="width: 18rem;">
+                            <img src="assets/main-dev-coop.jpeg" class="card-img-top" alt="graphic of COVID-19">
+                            <div class="card-body">
+                                <h5 class="card-title">Development Cooperation</h5>
+                                <p class="card-text">Information about Namibia and Germany's bilateral commitment to development.</p>
+                                <a href="https://www.invest-namibia.de/" target="_blank" class="btn btn-outline-primary">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card" style="width: 18rem;">
+                            <img src="assets/main-culture.jpeg" class="card-img-top" alt="Embassy building in Berlin">
+                            <div class="card-body">
+                                <h5 class="card-title">Culture</h5>
+                                <p class="card-text">Information about Namibia's rich culture related projects and opportunities.</p>
+                                <a href="https://www.namibia-tourism.com/" target="_blank" class="btn btn-outline-primary">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card" style="width: 18rem;">
+                            <img src="assets/main-news.jpeg" class="card-img-top" alt="a Namibian Passport">
+                            <div class="card-body">
+                                <h5 class="card-title">Current News</h5>
+                                <p class="card-text">Get the latest news on what's happening in Nambia and Germany.</p>
+                                <a href="http://www.namibia-botschaft.de/news-19.html" target="_blank" class="btn btn-outline-primary">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--
+            Brief introduction of the current Ambassador with an image, a quote
+            and non-functional a link to learn more.
+        -->
+        <section id="ambassador-section">
+
+            <h1 class="welcome-heading">The Ambassador</h1>
+            <div class="ambassador-div">
+                <img id="ambassador-img" src="assets/martin-andjaba.jpeg" alt="Ambassador Martin Andjaba">
+                <figure class="text-center">
+                    <blockquote class="blockquote">
+                        <p>"Namibia and Germany enjoy close ties. We are aware of our shared history. 
+                            <br> Together, we want to take powerful action to shape our future."</p>
+                    </blockquote>
+                    <figcaption class="blockquote-footer">
+                        Ambassador Martin Andjaba
+                    </figcaption>
+                    <a target="_blank" href="https://en.wikipedia.org/wiki/Martin_Andjaba"><button class="btn btn-outline-primary">Read More</button></a>
+                </figure>
+            </div>
+        </section>
+
+        <!--
+            Footer section containing a button to get to the top of page, as well as
+            further links to official social media accounts and copyright information.
+        -->
+        <footer id="footer-section">
+            <a href="#top">Top of Page</a>
+            <div class="footer-links">
+                <h3>Further Links</h3>
+                <ul class="social-links">
+                    <li><a href="https://www.facebook.com/NamibiaBotschaft/" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                    <li><a href="https://twitter.com/nambotschaft?lang=en" target="_blank"><i class="fa fa-twitter"></i></a></li>
+                    <li><a href="https://www.instagram.com/namibiabotschaft/?hl=en" target="+blank"><i class="fa fa-instagram"></i></a></li>
+                </ul>
+            </div>
+            <span class="footer-span">Copyright &COPY;2020 Justin Brandt - 220040869. <span>WAD621S Assignment: Part A</span></span>
+        </footer>
+
+        <!-- JavaScript: Bootstrap Bundle with Popper -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+    </body>
+</html>

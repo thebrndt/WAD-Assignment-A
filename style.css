@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=Urbanist:wght@400;700&display=swap");
+
+nav {
+	max-height: 22%;
+}
+.nav-logo-img {
+	max-width: 25vw;
+}
+
+.welcome-div {
+	text-align: center;
+}
+.welcome-heading {
+	font-family: "Urbanist", sans-serif;
+	font-weight: 700;
+	font-size: 6vh;
+}
+.main-div {
+	text-align: center;
+}
+
+.col {
+	padding: 2% 0;
+}
+.card {
+	filter: drop-shadow(0 0 0.4rem gray);
+}
+
+.ambassador-div {
+	display: inline-flexbox;
+	padding-top: 1%;
+	align-items: center;
+}
+.text-center {
+	padding: 1%;
+}
+
+.blockquote {
+	padding-top: 2%;
+}
+
+.social-links {
+	list-style: none;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 0rem 0 1rem 0;
+}
+
+.social-links li {
+	margin: 0 10px;
+}
+
+.social-links a {
+	text-decoration: none;
+	color: black;
+}
+
+.social-links a i {
+	font-size: 2rem;
+}
+
+.social-links a:hover i {
+	color: blue;
+}
+
+.footer-span {
+	text-align: center;
+	padding: 1.1rem 0;
+	font-size: largers;
+}
+
+#navbar-section {
+	z-index: 1;
+	filter: drop-shadow(0 0 0.4rem gray);
+}
+
+#welcome-section {
+	background-color: white;
+	height: 75vh;
+	text-align: center;
+}
+
+#welcome-img {
+	width: 60%;
+	min-width: 60vw;
+	filter: drop-shadow(0 0 0.5rem gray);
+}
+
+#homepage-links-section {
+	background-color: whitesmoke;
+	height: 100%;
+	text-align: center;
+}
+
+#ambassador-section {
+	background-color: white;
+	height: 50%;
+	text-align: center;
+	padding: 2%;
+}
+#ambassador-img {
+	max-height: 50vh;
+	filter: drop-shadow(0 0 0.4rem gray);
+}
+
+#footer-section {
+	background-color: whitesmoke;
+	height: auto;
+	font-family: "Urbanist", sans-serif;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	text-align: center;
+}
+
+#footer-section h3 {
+	line-height: 3rem;
+}
